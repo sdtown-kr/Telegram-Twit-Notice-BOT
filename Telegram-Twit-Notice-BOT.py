@@ -13,8 +13,6 @@ twitter_consumer_secret = 'TWITTER API SECRET HERE'
 twitter_access_token = 'TWITTER ACCESS TOKEN HERE'
 twitter_access_secret = 'TWITTER ACCESS SECRET HERE'
 
-import twitter
-
 twitter_api = twitter.Api(consumer_key = twitter_consumer_key,
                          consumer_secret = twitter_consumer_secret,
                          access_token_key = twitter_access_token,
